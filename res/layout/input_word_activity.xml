@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/word_to_add_player_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" 
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:text="" />
+    <EditText
+        android:id="@+id/word_to_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/word_to_add_hint"
+        android:layout_margin="10sp"
+        android:inputType="text" />
+    <Button 
+        android:id="@+id/check_in_dictionary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Check in dictionary" />
+    <Button 
+        android:id="@+id/word_to_add_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Claim Word" />
+
+</LinearLayout>
