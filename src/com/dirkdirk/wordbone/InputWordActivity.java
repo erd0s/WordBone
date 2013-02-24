@@ -23,7 +23,7 @@ public class InputWordActivity extends Activity {
 	private int player;
 	private SQLiteDatabase db;
 	
-	String[] columnsForChecking = {BoneListSQLiteHelper.COLUMN_PLAYER, BoneListSQLiteHelper.COLUMN_STRIPPED_WORD, BoneListSQLiteHelper.COLUMN_DATE};
+	public static final String[] columnsForChecking = {BoneListSQLiteHelper.COLUMN_PLAYER, BoneListSQLiteHelper.COLUMN_STRIPPED_WORD, BoneListSQLiteHelper.COLUMN_DATE};
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -110,7 +110,7 @@ public class InputWordActivity extends Activity {
 				else {
 					// This word doesn't exist
 					String nameOfPlayer;
-					if (claimedPlayer == 1) nameOfPlayer = "Dirk";
+					if (player == 1) nameOfPlayer = "Dirk";
 					else nameOfPlayer = "Emma";
 					Toast t = Toast.makeText(v.getContext(), "One word bone to " + nameOfPlayer + "!", Toast.LENGTH_LONG);
 					t.show();

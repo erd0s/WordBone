@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WordBone</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Word Bone</string>
     <string name="word_to_add_hint">Clever word</string>
     <string name="clear_database">Clear Database</string>
+    <string name="word_list_settings_button">View Word List</string>
 
 </resources>
